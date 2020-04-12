@@ -1,0 +1,10 @@
+2020-04-11T08:36:20+00:00 CRITICAL Uncaught Error: Class 'Silon_slider_Widget' not found in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\silon-elementor.php:142
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(288): Silon_Elementor_Extension->init_widgets(Object(Elementor\Widgets_Manager))
+#1 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\Elementor Development\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#5 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(258): Elementor\Widgets_Manager->get_widget_types()
+#6 D:\xampp\htdocs\Element in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\silon-elementor.php on line 142
+
