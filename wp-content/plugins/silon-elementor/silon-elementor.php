@@ -132,9 +132,11 @@ final class Silon_Elementor_Extension {
 
 		// Include Widget files
 		require_once( __DIR__ . '/widgets/slider.php' );
+		require_once( __DIR__ . '/widgets/content-block.php');
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_slider_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_ContentBlock_Widget() );
 
 	}
 	/**
@@ -158,3 +160,12 @@ final class Silon_Elementor_Extension {
 }
 
 Silon_Elementor_Extension::instance();
+
+ function silon_plugin_scripts() {
+
+	    wp_enqueue_style( 'slick-css', plugins_url( 'assets/css/slick.css', __FILE__ ) );
+	   
+	    wp_enqueue_script( 'slick-min-js', plugins_url( 'assets/js/slick.min.js', __FILE__ ), array('jquery'), '20151215', true );
+	}
+	
+add_action( 'wp_enqueue_scripts', 'silon_plugin_scripts' );

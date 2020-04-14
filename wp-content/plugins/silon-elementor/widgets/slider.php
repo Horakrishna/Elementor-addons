@@ -247,5 +247,4 @@ class Silon_slider_Widget extends \Elementor\Widget_Base {
 		}
 	
 	}
-
 }
