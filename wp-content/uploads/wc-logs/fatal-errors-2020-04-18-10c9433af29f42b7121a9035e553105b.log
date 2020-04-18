@@ -1,0 +1,8 @@
+2020-04-18T07:59:20+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 180
+
+2020-04-18T08:00:18+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 180
+
+2020-04-18T08:08:34+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 179
+
+2020-04-18T09:21:23+00:00 CRITICAL syntax error, unexpected '$html' (T_VARIABLE) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\category-product.php on line 104
+

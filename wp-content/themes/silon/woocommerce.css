@@ -1,0 +1,232 @@
+.silon-woocommerce ul {
+    width: 100%;
+}
+
+ 
+.product-bg .row {
+    height: 320px;
+}
+ 
+.products .product-bg .star-rating {
+    margin: 0 auto;
+}
+ 
+.product-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    padding: 0 30px;
+}
+ 
+ 
+.product-buttons .clear {
+    display: none;
+}
+ 
+.product-buttons > div {
+    display: inline-block;
+}
+ 
+.product-buttons i.fa {
+    margin-right: 0 !important;
+}
+
+.product-buttons i.fa {
+    height: 40px;
+    width: 40px;
+    background: #A9A9A0;
+    text-align: center;
+    line-height: 40px;
+    color: #eee;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.product-buttons span.feedback {
+    display: none;
+}
+
+.product-buttons i.fa:hover {
+    background: rebeccapurple;
+}
+
+.product-buttons a.added_to_cart {
+    display: none;
+}
+
+.product-buttons a.added i.fa {
+    background: forestgreen;
+}
+.product-buttons a.added_to_cart {
+    position: absolute;
+    bottom: -50px;
+    width: 109px;
+    background: #333;
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    margin-left: -50px;
+    left: 50%;
+}
+
+.product-buttons .added i.fa {
+    background-color: #000;
+}
+ 
+.products a h2 {color: #333}
+ 
+.product-bg .row {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+ 
+.product-bg:hover .row {
+    opacity: 1;
+    visibility: visible;
+}
+ 
+.product-bg .star-rating {
+    margin-top: 15px !important;
+}
+ 
+.product-buttons .loading i.fa {
+    opacity: .5;
+}
+ 
+.product-buttons .compare {
+    text-indent: -9999px;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.product-buttons .compare:after {
+    content: "\f067";
+    text-indent: 0px;
+    display: block;
+    font-family: FontAwesome;
+    height: 40px;
+    width: 40px;
+    background: #A9A9A9;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 5px
+}
+ 
+.product-buttons .compare:hover:after {
+    background-color: #333
+}
+
+.woocommerce ul.products.slick-slider li.product, .woocommerce-page ul.products.slick-slider li.product{
+    clear: none;
+}
+
+.woocommerce ul.products.slick-slider li.product, .woocommerce-page ul.products.slick-slider li.product{
+    margin: 0;
+}
+.woocommerce ul.products.slick-slider li.product{
+    margin-left: 30px;
+} 
+.products .slick-list {
+    margin-left: -30px;
+}
+
+.products .slick-arrow {
+    position: absolute;
+    top: 30%;
+    left: -35px;
+    z-index: 3;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background: #000;
+    color: #eee;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.products .slick-arrow.fa-angle-right  {
+    left: auto;
+    right: -35px;
+}
+ul.slick-dots{
+    margin:10px 0 0;
+    padding:0;
+    list-style:none;
+    text-align:center;
+}
+ul.slick-dots li button{
+    display:inline;  
+    height: 10px;
+    width: 10px;
+    background: #7a7a7a;
+    text-indent: -9999px;
+    border: none;
+    margin: 5px;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+
+ul.slick-dots li {
+    display: inline-block;
+}
+ 
+ul.slick-dots li.slick-active button {
+    background-color: #000;
+}
+/*Category product Addons CSS*/
+.cate-img img {
+    max-height: 165px;
+}
+
+.single-category-item {
+    color: #535353;
+    text-align: center;
+}
+
+.single-category-item h3 {text-transform: uppercase;font-size: 18px;margin-bottom: 5px;}
+
+.cate-img {
+    margin-bottom: 35px;
+}
+
+.no-cat-img {
+    background-color: #ddd;
+    height: 165px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.no-cat-img p {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    line-height: 20px;
+}
+.cate-img.cat-img-bg{
+    background-size:cover;
+    background-position:center;
+    height:165px;
+}
+.single-category-item .cate-img {
+    height: 165px;
+}
+.single-category-item h3 span {
+    top: 0;
+    left: 0;
+    background: palevioletred;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 0 5px;
+    text-align: center;
+    color: #fff;
+}
+/*Category product Addons CSS*/

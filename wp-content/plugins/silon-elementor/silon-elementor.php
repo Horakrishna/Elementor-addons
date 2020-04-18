@@ -65,7 +65,6 @@ final class Silon_Elementor_Extension {
 
 		// Add Plugin actions
 		add_action( 'elementor/widgets/widgets_registered', [ $this, 'init_widgets' ] );
-		add_action( 'elementor/controls/controls_registered', [ $this, 'init_controls' ] );
 		add_action( 'elementor/frontend/after_enqueue_styles', [ $this, 'widget_styles'] );
 
 	}
@@ -133,10 +132,14 @@ final class Silon_Elementor_Extension {
 		// Include Widget files
 		require_once( __DIR__ . '/widgets/slider.php' );
 		require_once( __DIR__ . '/widgets/content-block.php');
+		require_once( __DIR__ . '/widgets/latest-product.php');
+		require_once( __DIR__ . '/widgets/category-product.php');
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_slider_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_ContentBlock_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_LatestProduct_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_ProductCategory_Widget() );
 
 	}
 	/**
@@ -148,14 +151,6 @@ final class Silon_Elementor_Extension {
 
 		wp_enqueue_style('slider', plugins_url('widgets/css/slider.css', __FILE__ ) );
 	}
-
-	public function init_controls() {
-
-		
-
-	}
-
-	
 
 }
 

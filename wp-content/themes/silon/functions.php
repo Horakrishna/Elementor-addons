@@ -44,3 +44,8 @@ include_once('inc/shortcodes.php');
 //include_once('inc/elementor/elementor.php');
 //include_once('inc/metabox-and-options.php');
 include_once('inc/codestar-framework-master/cs-framework.php');
+
+if (class_exists('WooCommerce')) {
+    
+   include_once('inc/woocommerce.php');
+}

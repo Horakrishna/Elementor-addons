@@ -1,0 +1,26 @@
+2020-04-16T08:49:12+00:00 CRITICAL syntax error, unexpected '}', expecting ';' in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\inc\woocommerce.php on line 217
+
+2020-04-16T10:26:43+00:00 CRITICAL require_once(): Failed opening required 'D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor/widgets/leatest-product.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\silon-elementor.php on line 136
+
+2020-04-16T10:27:26+00:00 CRITICAL require_once(): Failed opening required 'D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor/widgets/leatest-product.php' (include_path='D:\xampp\php\PEAR') in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\silon-elementor.php on line 135
+
+2020-04-16T10:28:24+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 98
+
+2020-04-16T10:29:13+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 99
+
+2020-04-16T13:23:40+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 99
+
+2020-04-16T15:07:42+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 99
+
+2020-04-16T15:40:11+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php on line 99
+
+2020-04-16T16:45:37+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\content-product.php:19
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-includes\template.php(724): require()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('D:\\xampp\\htdocs...', false)
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(660): wc_get_template_part('content', 'product')
+#3 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-products.php(100): WC_Shortcode_Products->product_loop()
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(283): WC_Shortcode_Products->get_content()
+#5 D:\xampp\htdocs\Elementor Development\wp-includes\shortcodes.php(325): WC_Shortcodes::products(Array, '', 'products')
+#6 [internal in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\content-product.php on line 19
+
