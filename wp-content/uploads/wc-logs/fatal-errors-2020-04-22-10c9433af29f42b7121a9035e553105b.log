@@ -1,0 +1,69 @@
+2020-04-22T04:04:34+00:00 CRITICAL Cannot redeclare silon_product_cate_list() (previously declared in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php:26) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-hover-cart.php on line 37
+
+2020-04-22T04:05:33+00:00 CRITICAL Cannot redeclare silon_product_category_list() (previously declared in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\category-product.php:5) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-hover-cart.php on line 37
+
+2020-04-22T04:05:59+00:00 CRITICAL Cannot redeclare silon_product_cat_list() (previously declared in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\latest-product.php:4) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-hover-cart.php on line 37
+
+2020-04-22T12:05:29+00:00 CRITICAL Uncaught Error: Class 'Silon_Feature_Product_Widget' not found in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\silon-elementor.php:148
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(288): Silon_Elementor_Extension->init_widgets(Object(Elementor\Widgets_Manager))
+#1 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 D:\xampp\htdocs\Elementor Development\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#5 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\elements\column.php(1026): Elementor\Widgets_Manager->get_widget_types('slider')
+#6 D:\xam in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\silon-elementor.php on line 148
+
+2020-04-22T13:15:30+00:00 CRITICAL syntax error, unexpected '}' in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 135
+
+2020-04-22T13:23:48+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Silon_Feature_Product_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\base\document.php(218): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#3 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(288) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 157
+
+2020-04-22T13:23:54+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Silon_Feature_Product_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\base\document.php(218): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#3 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(288) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 157
+
+2020-04-22T13:23:58+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Silon_Feature_Product_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\base\document.php(218): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#3 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(288) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 157
+
+2020-04-22T13:24:01+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Silon_Feature_Product_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\base\document.php(218): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#3 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(288) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 157
+
+2020-04-22T13:24:17+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php:157
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Silon_Feature_Product_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\base\document.php(218): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\managers\widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#3 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php(288) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 157
+
+2020-04-22T14:23:53+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 234
+
+2020-04-22T14:35:04+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 118
+
+2020-04-22T14:35:57+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 118
+

@@ -1,0 +1,33 @@
+2020-04-21T07:52:51+00:00 CRITICAL syntax error, unexpected '}' in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 203
+
+2020-04-21T07:53:17+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_External::is_on_sell() in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php:201
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Avocado_ProductCarousel_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Widget_Base->_print_content()
+#3 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(884): Elementor\Element_Base->print_element()
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Element_Base->_print_content()
+#5 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 201
+
+2020-04-21T07:53:23+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_External::is_on_sell() in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php:201
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Avocado_ProductCarousel_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Widget_Base->_print_content()
+#3 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(884): Elementor\Element_Base->print_element()
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Element_Base->_print_content()
+#5 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 201
+
+2020-04-21T07:53:49+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_External::is_on_sell() in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php:201
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(531): Avocado_ProductCarousel_Widget->render()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Widget_Base->_print_content()
+#3 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(884): Elementor\Element_Base->print_element()
+#4 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base.php(668): Elementor\Element_Base->_print_content()
+#5 D:\xampp\htdocs\Elementor Development\wp-content\plugins\elementor\includes\base\element-base in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 201
+
+2020-04-21T08:02:16+00:00 CRITICAL syntax error, unexpected '.' in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 219
+
+2020-04-21T08:02:50+00:00 CRITICAL syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 230
+

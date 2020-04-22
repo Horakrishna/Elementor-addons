@@ -1,4 +1,5 @@
 <?php
+
  function silon_product_category_list(){
 
  	$elements =get_terms('product_cat', array('hide_empty'=> false) );

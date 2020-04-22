@@ -6,3 +6,15 @@
 
 2020-04-18T09:21:23+00:00 CRITICAL syntax error, unexpected '$html' (T_VARIABLE) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\category-product.php on line 104
 
+2020-04-18T15:51:25+00:00 CRITICAL syntax error, unexpected ':' in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 141
+
+2020-04-18T15:51:27+00:00 CRITICAL syntax error, unexpected ':' in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\deal-product.php on line 141
+
+2020-04-18T15:53:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php on line 290
+
+2020-04-18T15:54:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\Elementor Development\wp-includes\formatting.php on line 5361
+
+2020-04-18T15:55:27+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-hook.php on line 266
+
+2020-04-18T15:56:40+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in D:\xampp\htdocs\Elementor Development\wp-includes\class-wp-query.php on line 3281
+

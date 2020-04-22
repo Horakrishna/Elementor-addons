@@ -134,12 +134,18 @@ final class Silon_Elementor_Extension {
 		require_once( __DIR__ . '/widgets/content-block.php');
 		require_once( __DIR__ . '/widgets/latest-product.php');
 		require_once( __DIR__ . '/widgets/category-product.php');
+		require_once( __DIR__ . '/widgets/deal-product.php');
+		require_once( __DIR__ . '/widgets/product-hover-cart.php');
+		require_once( __DIR__ . '/widgets/product-filter.php');
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_slider_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_ContentBlock_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_LatestProduct_Widget() );
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_ProductCategory_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_ProductCarousel_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_ProductHover_Cart_Widget() );
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Silon_Feature_Product_Widget() );
 
 	}
 	/**

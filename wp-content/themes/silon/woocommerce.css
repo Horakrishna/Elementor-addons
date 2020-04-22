@@ -230,3 +230,206 @@ ul.slick-dots li.slick-active button {
     color: #fff;
 }
 /*Category product Addons CSS*/
+
+/* product Carousel products*/
+.product-thumnb-c {
+    height: 360px;
+    width: 360px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.product-sell-inner {
+    box-shadow: 0px 0px 10px #ddd;
+    padding: 100px;
+    position: relative;
+    margin: 10px;
+}
+
+.product-info h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.product-price {color: red;font-size: 20px;}
+
+
+.product-add-to-cart-sale {margin-top: 20px;}
+
+.add_to_cart_inline {
+    border: none !important;
+}
+
+.product-add-to-cart-sale .woocommerce-Price-amount {
+    display: none;
+}
+
+body .woocommerce #respond input#submit, body .woocommerce a.button, body .woocommerce button.button, body .woocommerce input.button {
+    background-color: #92b317;
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 25px;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.product-add-to-cart-sale {}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    background: #BCBEBD;
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 62px;
+    left: -25px;
+    cursor: pointer;
+}
+
+.slick-arrow.fa-angle-right {
+    left: auto;
+    right: -25px;
+}
+
+.product-price del {
+    padding: 20px;
+   
+}
+
+.product-price ins {
+    color: brown;
+}
+
+span.product-sale {
+    background: #92b317;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 2;
+}
+
+/* product hover card*/
+.product-hovercard-info {
+    position: absolute;
+    bottom: 50px;
+    background: #fff;
+    width: 260px;
+    text-align: center;
+    padding: 20px 20px 55px;
+    box-shadow: 0 0 10px #ddd;
+    left: 50%;
+    margin-left: -130px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.single-hc-product {
+    width: 150px;
+    position: absolute;
+    left: 27%;
+    top: 5%;
+}
+
+.hc-product-base img {
+    border-radius: 50% !important;
+}
+
+.single-hc-product:hover {
+    z-index: 9;
+}
+
+.hc-product-base {
+    border-radius: 50%;
+    box-shadow: 0 0 10px #ddd;
+    position: relative;
+}
+
+.hc-product-base span {
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    background: #ee4e23;
+    text-align: center;
+    color: #fff;
+    line-height: 58px;
+    font-size: 25px;
+    border-radius: 50%;
+    margin-left: -30px;
+    bottom: -30px;
+    z-index: 9;
+}
+
+.product-thumnb-hc {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.product-hovercard {min-height: 670px;position: relative;z-index: 25;}
+
+.single-hc-product:hover .product-hovercard-info {
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.product-hovercard-info h4 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.product-hovercard-info .c-product-price {
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
+
+.single-hc-product:nth-child(2) {
+    left: 50%;
+    top: 25%;
+}
+
+.single-hc-product:nth-child(3) {
+    left: auto;
+    right: 0;
+    top: 36%;
+}
+
+.single-hc-product:nth-child(4) {
+    left: 21%;
+    top: 50%;
+}
+
+.single-hc-product:nth-child(5) {
+    left: 0;
+    top: auto;
+    bottom: 10%;
+}
+
+.single-hc-product:nth-child(6) {
+    right: 24%;
+    left: auto;
+    top: auto;
+    bottom: 10%;
+}
+/* product hover card End*/
+
+/* Product Filter*/
