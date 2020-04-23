@@ -67,3 +67,13 @@ Stack trace:
 
 2020-04-22T14:35:57+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 118
 
+2020-04-22T15:07:14+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 207
+
+2020-04-22T15:08:16+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 135
+
+2020-04-22T15:08:49+00:00 CRITICAL syntax error, unexpected end of file in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 133
+
+2020-04-22T15:10:49+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 133
+
+2020-04-22T15:21:57+00:00 CRITICAL syntax error, unexpected '}' in D:\xampp\htdocs\Elementor Development\wp-content\plugins\silon-elementor\widgets\product-filter.php on line 119
+

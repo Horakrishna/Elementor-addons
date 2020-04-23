@@ -85,13 +85,51 @@ class Silon_Feature_Product_Widget extends \Elementor\Widget_Base {
         
 
         $html = '
+            <script>
+                jQuery(document).ready( function($){
+                    $(".featured-category-wrapper ul li button").on("click", function(){
+                        $(".featured-category-wrapper ul li button").removeClass("active");
+                        $(this).addClass("active");
+                     var cat_id  =$(this).attr("data-id");
+                     var nonce   =$(this).attr("data-nonce");
+                     $.ajax({
+                            url: "'.admin_url('admin-ajax.php').'",
+                            type:"POST",
+                            data:{
+                                action     : "my_ajax_action",
+                                cat_id     : cat_id,
+                                nonce_get  : nonce
+                            },
+
+                            beforeSend: function() {
+                                $(".feature-cate-products").empty();
+                                $(".feature-cate-products").append(\'<div class="loading-bar"><i class="fa fa-spin fa-cog"></i> Loading</div>\');
+                            },
+                            success: function(html) {
+                               $(".feature-cate-products").empty();
+                               $(".feature-cate-products").append(html);
+                            }
+                        });
+                    })
+                });
+            </script>
             <div class="featured-category-wrapper"><h3>'.$settings['title'].'</h3>';
                
                  if (!empty($settings['cat_ids']) ) {
+
                     $html .='<ul>';
+                     $i =0;
                         foreach($settings['cat_ids'] as $cat ) {
+
+                            if ($i== 1) {
+                                $ac_class ='active';
+                            }else{
+                                $ac_class= '';
+                            }
                            $cat_info = get_term($cat,'product_cat');
-                           $html     .='<li><button data-id="'.$cat_info->term_id.'">'.$cat_info->name.'</button></li>';
+                           $thumb_id = get_woocommerce_term_meta( $settings['cat_ids'][0], 'thumbnail_id', true );
+                           $term_img = wp_get_attachment_image_url( $thumb_id ,'large');
+                           $html     .='<li><button class="'.$ac_class.'" data-nonce="'.wp_create_nonce('my_ajax_action').'" data-id="'.$cat_info->term_id.'">'.$cat_info->name.'</button></li>';
                         }
                     $html .='</ul>'; 
 
@@ -107,10 +145,14 @@ class Silon_Feature_Product_Widget extends \Elementor\Widget_Base {
                             )
                         ),
                     ));
+                $html .= '<div class="row">';
+                    if (!empty($thumb_id)) {
+                        $html .='<div class="col-lg-6">
+                                    <div class="feature-product-thumb" style="background-image:url('.$term_img.')" >
+                                    </div> 
 
-
-                    $html .= '<div class="row">';
-
+                        </div>';
+                    }
                     while($q->have_posts()) : $q->the_post();
                     global $product;
 
@@ -123,72 +165,13 @@ class Silon_Feature_Product_Widget extends \Elementor\Widget_Base {
                         </div>';
                     endwhile; wp_reset_query();
                     $html .= '</div>';
-                $html .= '</div>';
-            }
-            $html .= '</div>';
+                $html .= '</div>';      
+           
 
               if (empty($settings['cat_ids'])) {
                     $html ='<div class="alert alert-warning"><p>Please Select Product Category</p></div>';
               }
         echo $html;
-
+        }
     }
-    //  protected function render() {
-
-    //         $settings = $this->get_settings_for_display();
-
-            
-
-    //         $html = '
-            
-    //         <div class="featured-category-wrapper"><h3>'.$settings['title'].'</h3>';
-            
-                   
-    //              if (!empty($settings['cat_ids']) ) {
-    //                 $html .='<ul>';
-    //                     foreach($settings['cat_ids'] as $cat ) {
-    //                        $cat_info = get_term($cat,'product_cat');
-    //                        $html     .='<li><button data-id="'.$cat_info->term_id.'">'.$cat_info->name.'</button></li>';
-    //                     }
-    //                 $html .='</ul>'; 
-
-    //             $html .= '<div class="featured-cat-products">';
-    //                 $q = new WP_Query( array(
-    //                     'posts_per_page' => $settings['count'], 
-    //                     'post_type' => 'product',
-    //                     'tax_query' => array(
-    //                         array(
-    //                             'taxonomy' => 'product_cat',
-    //                             'field'    => 'term_id',
-    //                             'terms'    => $settings['cat_ids'][0],
-    //                         )
-    //                     ),
-    //                 ));
-
-    //                 $html .= '<div class="row">';
-
-    //                 while($q->have_posts()) : $q->the_post();
-    //                 global $product;
-
-    //                     $html .= '<div class="col-lg-2">
-    //                         <div class="single-f-product">
-    //                             <div class="single-f-product-bg" style="background-image:url('.get_the_post_thumbnail_url(get_the_ID(), 'medium').')"></div>
-    //                             <h4>'.get_the_title().'</h4>
-    //                             <div class="c-product-price">'.$product->get_price_html().'</div>
-    //                         </div>
-    //                     </div>';
-    //                 endwhile; wp_reset_query();
-    //                 $html .= '</div>';
-    //             $html .= '</div>';
-    //         }
-    //         $html .= '</div>';
-
-    //         if(empty($settings['cat_ids'])) {
-    //             $html = '<div class="alert alert-warning"><p>Please select product category</p></div>';  
-    //         } 
-            
-
-    //         echo $html;
-
-    // }
 }

@@ -1,0 +1,102 @@
+2020-04-23T07:42:10+00:00 CRITICAL syntax error, unexpected '}' in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 54
+
+2020-04-23T07:42:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:43:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:44:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:44:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:45:13+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:47:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:47:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:47:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T07:47:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 50 and exactly 1 expected in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php:932
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php(50): is_active_sidebar()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#3 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#6 {main} in D:\xampp\htdocs\Elementor Development\wp-includes\widgets.php on line 932
+
+2020-04-23T08:18:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_quired_object_id() in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php:65
+Stack trace:
+#0 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 D:\xampp\htdocs\Elementor Development\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php(22): wc_get_template('archive-product...')
+#2 D:\xampp\htdocs\Elementor Development\wp-includes\template-loader.php(98): include('D:\\xampp\\htdocs...')
+#3 D:\xampp\htdocs\Elementor Development\wp-blog-header.php(19): require_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\Elementor Development\index.php(17): require('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\Elementor Development\wp-content\themes\silon\woocommerce\archive-product.php on line 65
+

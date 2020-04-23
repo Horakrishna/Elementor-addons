@@ -170,3 +170,60 @@ Silon_Elementor_Extension::instance();
 	}
 	
 add_action( 'wp_enqueue_scripts', 'silon_plugin_scripts' );
+
+
+add_action('wp_ajax_my_ajax_action', 'my_ajax_function');
+add_action('wp_ajax_nopriv_my_ajax_action', 'my_ajax_function');
+
+function my_ajax_function() {
+
+    if(wp_verify_nonce($_POST['nonce_get'], 'my_ajax_action')) {
+        
+        $q = new WP_Query( array(
+            'posts_per_page' => 9, 
+            'post_type' => 'product',
+            'tax_query' => array(
+                array(
+                    'taxonomy' => 'product_cat',
+                    'field'    => 'term_id',
+                    'terms'    => $_POST['cat_id'],
+                )
+            ),
+        ));
+
+
+        $html = '<div class="row">';
+
+        $thumb_id = get_woocommerce_term_meta( $_POST['cat_id'], 'thumbnail_id', true );
+        $term_img = wp_get_attachment_image_url(  $thumb_id, 'large' );
+
+        if(!empty($thumb_id)) {
+            $html .= '<div class="col-lg-6">
+                <div class="f-cat-thumb" style="background-image:url('.$term_img.')"></div>
+            </div>';
+        }
+
+        while($q->have_posts()) : $q->the_post();
+            global $product;
+            $html .= '<div class="col-lg-2">
+                <div class="single-f-product">
+                    <div class="single-f-product-bg" style="background-image:url('.get_the_post_thumbnail_url(get_the_ID(), 'medium').')"></div>
+                    <h4>'.get_the_title().'</h4>
+                    <div class="c-product-price">'.$product->get_price_html().'</div>
+                </div>
+            </div>';
+        endwhile; wp_reset_query();
+
+        $html .= '</div>';
+
+       
+    } else {
+        
+        $html = '<div class="alert alert-danger">Error!</div>';
+    }
+
+
+    echo $html;
+
+    die();
+}
